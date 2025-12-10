@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    background: #24292e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-card {
+    display: flex;
+    gap: 20px;
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.profile-card img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.stats {
+    margin-top: 10px;
+}
+
+.stats span {
+    display: inline-block;
+    margin-right: 15px;
+    background: #e1e1e1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
